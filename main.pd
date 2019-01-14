@@ -136,18 +136,18 @@
 #X obj 607 308 s looper-speed;
 #X obj 508 308 s looper-decay;
 #X obj 507 170 vsl 25 128 0 1 0 0 empty empty Decay 0 -9 0 10 -262144
--1 -1 4650 1;
+-1 -1 6350 1;
 #X obj 608 170 vsl 25 128 0 1 0 0 empty empty Speed 0 -9 0 10 -262144
--1 -1 11400 1;
+-1 -1 3800 1;
 #X obj 829 411 s looper-in;
 #X obj 909 412 s looper-out;
 #X obj 701 310 s looper-pitch;
 #X obj 701 166 vsl 25 128 -1 1 0 0 empty empty Pitch 0 -9 0 10 -262144
--1 -1 6750 1;
+-1 -1 6350 1;
 #X obj 828 251 vsl 25 128 0 1 0 0 empty empty In 0 -9 0 10 -262144
 -1 -1 0 1;
 #X obj 886 267 vsl 25 128 0 1 0 0 empty empty Out 0 -9 0 10 -262144
--1 -1 6000 1;
+-1 -1 2325 1;
 #X obj 354 371 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X text 375 372 click to loop;
