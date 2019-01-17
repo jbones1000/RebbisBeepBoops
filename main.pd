@@ -278,7 +278,7 @@
 #X floatatom 795 289 5 0 0 0 - - -;
 #X floatatom 378 289 5 0 0 0 - - -;
 #X obj 487 315 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X floatatom 487 451 5 0 0 0 - - -;
 #X obj 487 270 r r-looper-3d;
 #X obj 575 269 r r-looper-speed;
@@ -287,7 +287,7 @@
 #X obj 795 268 r r-looper-in;
 #X obj 886 267 r r-looper-out;
 #X obj 577 315 vsl 15 128 -2 2 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7300 1;
+-1 -1 0 1;
 #X floatatom 577 451 5 0 0 0 - - -;
 #X floatatom 688 290 5 0 0 0 - - -;
 #X obj 487 490 s looper-3d;
@@ -296,11 +296,11 @@
 #X obj 795 488 s looper-in;
 #X obj 886 487 s looper-out;
 #X obj 687 315 vsl 15 128 -2 2 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7300 1;
+-1 -1 0 1;
 #X obj 797 315 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1143 1;
+-1 -1 0 1;
 #X obj 887 315 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2805 1;
+-1 -1 0 1;
 #X floatatom 773 458 5 0 0 0 - - -;
 #X floatatom 890 458 5 0 0 0 - - -;
 #X text 510 363 0-1;
@@ -313,7 +313,7 @@
 #X text 609 340 normal;
 #X text 420 452 in hz-->;
 #X text 936 426 this is actually loop length;
-#N canvas 0 23 1018 678 saver 1;
+#N canvas 0 23 1018 678 saver 0;
 #X obj 243 113 r looper-notes;
 #X obj 338 174 r looper-3d;
 #X obj 426 173 r looper-speed;
